@@ -1,17 +1,14 @@
-import './App.css';
+import "./App.css";
+import { Designs } from "./Designs";
+import { Navbar } from "./Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      {/* Center the title */}
-      <div className="flex justify-center">
-        {/* Make the title a bit bigger */}
-        <h1 className="text-4xl">
-          Welcome to my page
-        </h1>
-      </div>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Navbar />
+			<Designs />
+		</div>
+	);
 }
 
 export default App;

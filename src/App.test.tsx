@@ -1,11 +1,24 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { Designs } from './Designs';
 
 /**
- * This is a test for the App component.
+ * This is a test for the Navbar component.
+ * It checks if the navbar is rendered.
  */
-test('renders learn react link', () => {
+test('renders navbar', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Welcome to my page/i);
-  expect(linkElement).toBeInTheDocument();
-});
+  const navbar = screen.getByText(/home/i);
+  expect(navbar).toBeInTheDocument();
+}
+)
+/**
+ * This is a test for the Designs component.
+ * It checks if the designs are rendered.
+ */
+test('renders designs', () => {
+  render(<Designs />);
+  const designs = screen.getByTestId("design-title");
+  expect(designs).toBeInTheDocument();
+}
+)
