@@ -1,17 +1,16 @@
 import "./App.css";
-import { Blogs } from "./Blogs";
-import { Designs } from "./Designs";
+import { DesignsMain } from "./DesignsMain";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./Home";
-import { Navbar } from "./Navbar";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
+// @TODO - Cleanup unused imports
 function App() {
 	return (
 		<Router>
 			<div className="App">
 				<Routes>
 					<Route path="/" element={<Home />}></Route>
-					<Route path="/blogs" element={<Blogs />}></Route>
+					<Route path="/designs" element={<DesignsMain />}></Route>
 				</Routes>
 			</div>
 		</Router>

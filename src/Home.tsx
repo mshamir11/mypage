@@ -4,8 +4,7 @@ import { Navbar } from "./Navbar";
 export const Home = () => {
 	return (
 		<div>
-			<Navbar />
-			<Designs />
+			<h1 className="flex justify-center text-4xl">Placeholder for Home</h1>
 		</div>
 	);
 };
