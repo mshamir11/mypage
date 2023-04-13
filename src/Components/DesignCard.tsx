@@ -11,7 +11,7 @@ export const DesignCard = ({ image_src, card_title, main_title, description }: I
 						href="/"
 						className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
 						aria-label="Category"
-						title="traveling"
+						title={card_title}
 					>
 						{card_title}
 					</a>
@@ -20,7 +20,7 @@ export const DesignCard = ({ image_src, card_title, main_title, description }: I
 				<a
 					href="/"
 					aria-label="Category"
-					title="Visit the East"
+					title={main_title}
 					className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
 				>
 					{main_title}
