@@ -1,22 +1,28 @@
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+
 export const Navbar = () => {
+	const location = useLocation();
+	const [url, setUrl] = useState<String | null>(null);
+	useEffect(() => {
+		setUrl(location.pathname);
+	}, [location]);
+
 	return (
-		<nav className="bg-white shadow dark:bg-gray-800">
-			<div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
-				<a
-					href=""
-					className="text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6"
+		<nav className="bg-white shadow">
+			<div className="container flex items-center justify-center mx-auto text-gray-600 mb-2">
+				<Link to="/" className={"navbar-style " + (url === "/" ? "border-blue-500" : "border-transparent")}>
+					Home
+				</Link>
+				<Link
+					to="/designs"
+					className={"navbar-style " + (url === "/designs" ? " border-blue-500" : "border-transparent")}
 				>
-					home
-				</a>
-				<a href="" className="navbar-style">
-					features
-				</a>
-				<a href="" className="navbar-style">
-					pricing
-				</a>
-				<a href="" className="navbar-style">
-					blog
-				</a>
+					System Designs
+				</Link>
+				<Link to="/blogs" className={"navbar-style " + (url === "/blogs" ? " border-blue-500" : "border-transparent")}>
+					Blogs
+				</Link>
 			</div>
 		</nav>
 	);

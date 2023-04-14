@@ -1,5 +1,4 @@
 import { DesignCard } from "../components/DesignCard";
-import { Image } from "../interfaces/DesignInterfaces";
 import { image1, image2, image3 } from "../data/DesignData";
 
 export const Designs = () => {
