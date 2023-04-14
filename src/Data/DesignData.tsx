@@ -4,9 +4,10 @@ import { Image } from "../interfaces/DesignInterfaces";
 export const image1: Image = {
 	image_src:
 		"https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500",
-	card_title: "travelling",
-	main_title: "Visit the East",
-	description: "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.",
+	card_title: "System Design",
+	main_title: "Community Rides",
+	description: "A small app where people can come together and go on trips.",
+	route_url: "/designs/community-rides",
 };
 
 export const image2: Image = {
@@ -15,6 +16,7 @@ export const image2: Image = {
 	card_title: "Simple is better",
 	main_title: "Visit the East",
 	description: "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.",
+	route_url: "/",
 };
 
 export const image3: Image = {
@@ -23,4 +25,5 @@ export const image3: Image = {
 	card_title: "travelling",
 	main_title: "Visit the East",
 	description: "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.",
+	route_url: "/",
 };
