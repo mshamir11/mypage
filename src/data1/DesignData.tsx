@@ -1,6 +1,6 @@
 import { Image } from "../interfaces/DesignInterfaces";
 
-// @TODO : Revisit for a better way of capturing data
+// @TODO : Revisit for a better way of capturing data for the design cards
 export const image1: Image = {
 	image_src:
 		"https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500",
