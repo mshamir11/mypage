@@ -1,5 +1,5 @@
 import { Designs } from "./Designs";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../components1/Navbar";
 
 export const Home = () => {
 	return (
