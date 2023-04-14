@@ -1,6 +1,6 @@
-import { DesignCard } from "./Components/DesignCard";
-import { Image } from "./Interfaces/DesignInterfaces";
-import { image1, image2, image3 } from "./Data/DesignData";
+import { DesignCard } from "../components/DesignCard";
+import { Image } from "../interfaces/DesignInterfaces";
+import { image1, image2, image3 } from "../data/DesignData";
 
 export const Designs = () => {
 	return (

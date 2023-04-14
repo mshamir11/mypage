@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
-import { Designs } from "./Designs";
+import App from "../App";
+import { Designs } from "../pages/Designs";
 
 // @TODO - Add more tests. Separate tests into different files. Can we have coverage check during push?
 /**

@@ -1,7 +1,7 @@
 import "./App.css";
-import { DesignsMain } from "./DesignsMain";
+import { DesignsMain } from "./pages/DesignsMain";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { Home } from "./Home";
+import { Home } from "./pages/Home";
 
 // @TODO - Cleanup unused imports
 function App() {

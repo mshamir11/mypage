@@ -1,4 +1,4 @@
-import { Image } from "../Interfaces/DesignInterfaces";
+import { Image } from "../interfaces/DesignInterfaces";
 
 // @TODO : Fix hovering effect for small screen devices
 export const DesignCard = ({ image_src, card_title, main_title, description }: Image) => {

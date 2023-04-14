@@ -1,4 +1,4 @@
-import { Image } from "../Interfaces/DesignInterfaces";
+import { Image } from "../interfaces/DesignInterfaces";
 
 // @TODO : Revisit for a better way of capturing data
 export const image1: Image = {
