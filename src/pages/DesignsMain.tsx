@@ -1,5 +1,5 @@
 import { Designs } from "./Designs";
-import { Navbar } from "../components1/Navbar";
+import { Navbar } from "../components/Navbar";
 
 // @TODO : This can be combined with Designs.tsx.
 export const DesignsMain = () => {
