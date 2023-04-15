@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Image } from "../interfaces/DesignInterfaces";
 
 // @TODO : Fix hovering effect for small screen devices
+// @TODO : Fix all cards having same size
 export const DesignCard = ({ image_src, card_title, main_title, description, route_url }: Image) => {
 	return (
 		<div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
