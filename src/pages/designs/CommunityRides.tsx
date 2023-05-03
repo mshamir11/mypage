@@ -4,6 +4,13 @@ import { ImageCarousel } from "../../components/ImageCarousel";
 export const CommunityRides = () => {
 	return (
 		<div>
+			<section id="hero">
+				<div className="container">
+
+				<h1>Community Rides</h1>
+				</div>
+				
+			</section>
 			<h1 className="flex justify-center text-4xl">Placeholder for CommunityRides</h1>
 			<div className="">
 				<h2>Mocks</h2>
